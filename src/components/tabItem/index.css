@@ -1,0 +1,36 @@
+.tab-button {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  background-color: transparent;
+  margin-right: 12px;
+  cursor: pointer;
+}
+.tab-name {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 17px;
+  font-family: 'Roboto';
+  margin-left: 4px;
+}
+.line {
+  background-color: #ffffff;
+  width: 110%;
+  margin-top: -16px;
+  height: 1px;
+}
+@media all and (min-width: 768px) {
+  .tab-name {
+    font-size: 24px;
+  }
+}
+.tab-item {
+  list-style-type: none;
+}
+.selected {
+  color: #fec653;
+}
+.selected-bg {
+  background-color: #fec653;
+  color: #fec653;
+}
